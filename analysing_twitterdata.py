@@ -7,8 +7,6 @@ from tweepy import Stream
 import twitter_credentials
 import numpy as np
 import pandas as pd
-
-
 # # # # TWITTER CLIENT # # # #
 class TwitterClient():
     def __init__(self, twitter_user=None):
@@ -114,11 +112,12 @@ if __name__ == '__main__':
 
     api = twitter_client.get_twitter_client_api()
 
-    tweets = api.user_timeline(screen_name="realDonaldTrump", count=20)
+    tweets = api.user_timeline(screen_name="kerala", count=25)
 
     #print(dir(tweets[0]))
     #print(tweets[0].retweet_count)
 
     df = tweet_analyzer.tweets_to_data_frame(tweets)
     
-    print(df.head(10))
+    print(df.head(25))
+    df.to_pickle('tweets.pkl')
