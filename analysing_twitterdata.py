@@ -112,12 +112,12 @@ if __name__ == '__main__':
 
     api = twitter_client.get_twitter_client_api()
 
-    tweets = api.user_timeline(screen_name="kerala", count=25)
+    tweets = api.user_timeline(screen_name="AUSvIND", count=50)
 
     #print(dir(tweets[0]))
     #print(tweets[0].retweet_count)
 
     df = tweet_analyzer.tweets_to_data_frame(tweets)
     
-    print(df.head(25))
+    print(df.head(50))
     df.to_pickle('tweets.pkl')
