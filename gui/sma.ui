@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sports Match Analyser</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>70</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Collect Data From :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="redditbtn">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>80</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> Reddit</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>reddit.jpg</normaloff>reddit.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>18</width>
+      <height>18</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="twitterbtn">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>80</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> Twitter</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>twitter.jpg</normaloff>twitter.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuData_Collection">
+    <property name="title">
+     <string>Data Collection</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuView_Data">
+    <property name="title">
+     <string>View Data</string>
+    </property>
+   </widget>
+   <addaction name="menuData_Collection"/>
+   <addaction name="menuView_Data"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
