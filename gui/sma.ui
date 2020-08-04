@@ -14,70 +14,6 @@
    <string>Sports Match Analyser</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="collectdatalabel">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>70</y>
-      <width>141</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Collect Data From :</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="redditbtn">
-    <property name="geometry">
-     <rect>
-      <x>240</x>
-      <y>80</y>
-      <width>131</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string> Reddit</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>reddit.jpg</normaloff>reddit.jpg</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>18</width>
-      <height>18</height>
-     </size>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="twitterbtn">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>80</y>
-      <width>131</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string> Twitter</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>twitter.jpg</normaloff>twitter.jpg</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>20</width>
-      <height>20</height>
-     </size>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="lineEdit_2">
     <property name="geometry">
      <rect>
@@ -101,25 +37,12 @@
      <string>Enter Reddit Thread ID :</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="redditfetchbtn">
-    <property name="geometry">
-     <rect>
-      <x>290</x>
-      <y>420</y>
-      <width>181</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Fetch Data</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="twitterfetchbtn">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>400</y>
-      <width>181</width>
+      <x>40</x>
+      <y>440</y>
+      <width>101</width>
       <height>25</height>
      </rect>
     </property>
@@ -130,7 +53,7 @@
    <widget class="QLabel" name="twitterhastaglabel">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>60</x>
       <y>230</y>
       <width>161</width>
       <height>17</height>
@@ -148,6 +71,97 @@
       <width>113</width>
       <height>25</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbproceed">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>150</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Proceed</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>80</y>
+      <width>92</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reddit</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>80</y>
+      <width>92</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Twitter</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_3">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>80</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Data Set</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>350</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Upload Dataset:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>340</y>
+      <width>111</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Browse files</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>80</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Collect Data From:</string>
     </property>
    </widget>
   </widget>
