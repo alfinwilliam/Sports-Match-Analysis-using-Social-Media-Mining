@@ -1,4 +1,4 @@
-#Sports Match Analysis using Social Media Mining.
+# Sports Match Analysis using Social Media Mining.
 Detailed docs are inside Docs directory.
 The project currently does not have any UI and works via jupyter notebook environment.
 
@@ -28,11 +28,11 @@ Advisable to run in an anaconda environment.
 - [ ] Add export results to pdf functionality.
 
 ## Tutorials used to create this project
-https://medium.com/@jdchipox/how-to-interact-with-jupyter-33a98686f24e
-https://github.com/vprusso/youtube_tutorials/tree/master/twitter_python
-https://medium.com/@sharonwoo/sentiment-analysis-with-nltk-422e0f794b8
-https://towardsdatascience.com/applying-machine-learning-to-classify-an-unsupervised-text-document-e7bb6265f52
-https://www.datacamp.com/community/tutorials/text-analytics-beginners-nltk
+1. https://medium.com/@jdchipox/how-to-interact-with-jupyter-33a98686f24e  
+2. https://github.com/vprusso/youtube_tutorials/tree/master/twitter_python  
+3. https://medium.com/@sharonwoo/sentiment-analysis-with-nltk-422e0f794b8  
+4. https://towardsdatascience.com/applying-machine-learning-to-classify-an-unsupervised-text-document-e7bb6265f52  
+5. https://www.datacamp.com/community/tutorials/text-analytics-beginners-nltk  
 
 
 PR's are more than welcome.
